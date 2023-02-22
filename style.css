@@ -1,0 +1,39 @@
+h1, h2 {
+	text-align: center;
+}
+
+.menu-section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.menu-item {
+	width: 200px;
+	margin: 10px;
+	border: 1px solid black;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.menu-item img {
+	max-width: 100%;
+	height: auto;
+}
+
+.menu-item h3 {
+	margin: 5px 0;
+}
+
+.menu-item p {
+	margin: 0;
+	font-weight: bold;
+}
+
+button {
+	display: block;
+	margin: 20px auto;
+}
+
