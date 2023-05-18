@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Fish Shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+	 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<img src="img/logo.png" width="200" height="200">
+		</header>
+		<main>
+			<section class="fish-menu">
+				<h2>Fish Menu</h2>
+				<ul id="fish-list"></ul>				
+
+			</section>
+			<section class="buy-now">
+				<ul id="cart-items"></ul>
+				<h2>Buy Now</h2>
+				<form>
+					<label for="name">Name:</label>
+					<input type="text" id="name" required>
+					<label for="address">Address:</label>
+					<textarea id="address" required></textarea>
+					<label for="phone">Phone:</label>
+					<input type="tel" id="phone" required>
+					<button type="submit" id="buy-now">Buy Now</button>
+				</form>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2023 Online Fish Shop</p>
+		</footer>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
